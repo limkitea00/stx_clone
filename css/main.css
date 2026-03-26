@@ -1,0 +1,36 @@
+/* 폰트적용 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Playwrite+DK+Uloopet+Guides&family=Poiret+One&display=swap');
+/* css연결 링크 */
+@import url("haeder.css");
+@import url("visual.css");
+@import url("business.css");
+@import url("news.css");
+@import url("cs.css");
+@import url("about.css");
+@import url("footer.css");
+/* css초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+body{
+    font-family: "Noto Sans KR", sans-serif;
+}
+/* 공통영역 */
+.inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-color: rgb(175, 180, 255); */
+}
+.wrap{
+    position: relative;
+}
