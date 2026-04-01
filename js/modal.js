@@ -1,4 +1,10 @@
 window.addEventListener("load", function () {
+  // 모달창 닫기
+  const modalWrap = this.document.querySelector(".modal-wrap")
+  const modalClose = this.document.querySelector(".modalClose")
+  modalClose.addEventListener("click" , function(){
+    modalWrap.style.display = "none";
+  })
   // gotop 스크롤 이벤트
   // 변수 선언
   const goTop = this.document.querySelector("#gotop");
